@@ -6,7 +6,7 @@ def fizz_buzz(n):
         elif (y % 3 != 0) and (y % 5 == 0):
             print("Buzz")
         elif (y % 3 == 0) and (y % 5 == 0):
-            print("FlizzBuzz")
+            print("FizzBuzz")
         else:
             print(y)
 fizz_buzz(input("Введите число: "))
